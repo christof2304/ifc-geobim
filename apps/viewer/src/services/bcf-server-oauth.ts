@@ -99,7 +99,7 @@ export async function prepareBcfOAuth(
         authInfo.oauth2_dynamic_client_reg_url,
         'client registration endpoint',
       ),
-      clientName: 'IFClite viewer',
+      clientName: 'ifc.geoBIM.app',
       clientUrl: window.location.origin,
       redirectUrl: redirectUri,
     });

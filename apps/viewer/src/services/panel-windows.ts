@@ -165,7 +165,7 @@ export async function openPanelWindow(id: WorkspacePanelId): Promise<PanelWindow
   if (!win) return null; // blocked by a popup blocker
 
   try {
-    win.document.title = `${def?.title ?? id} — ifc-lite`;
+    win.document.title = `${def?.title ?? id} — ifc.geoBIM.app`;
     bridgeStyles(win.document);
   } catch {
     /* about:blank not ready in some engines — portal still mounts into body */
